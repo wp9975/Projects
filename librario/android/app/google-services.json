@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018193569060",
+    "project_id": "librario-eb0d6",
+    "firebase_url": "https://librario-eb0d6-default-rtdb.europe-west1.firebasedatabase.app",
+    "storage_bucket": "librario-eb0d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018193569060:android:61e59d0a8887b799d5ffb1",
+        "android_client_info": {
+          "package_name": "wp.librario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018193569060-c1ji9p742ms0t1e3s9595gthlo3k9ut3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1Zuo8FoA3KmSKHKFEtfk9iGFQR67HgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018193569060-c1ji9p742ms0t1e3s9595gthlo3k9ut3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
