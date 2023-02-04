@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <script type="text/javascript" src="../js/script.js"></script>
+    <meta name="author" content="Wojciech Pieczonka">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="../img/icons/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/stylegallery.css" type="text/css">
+
+</head>
+
+<body>
+    <section>
+        <nav>
+
+
+            <div class="menu-icons">
+                <div class="menu"><a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a></div>
+                <div class="menu"><a href="galeria.html" class="active"><i class="fa fa-fw fa-search"></i>Galeria</a></div>
+                <div class="menu"><a href="kontakt.html"><i class="fa fa-fw fa-envelope"></i> Kontakt</a></div>
+                <div class="menu"><a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a></div>
+
+            </div>
+        </nav>
+
+
+        <article id="superarticle">
+
+
+            <div class="row">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/frankfurt-4945405_1920.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/Bazylika%20Sacr%C3%A9-C%C5%93ur%20w%20Pary%C5%BCu%20.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/Bazylika%20%C5%9Bw%20Piotra.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/budapest-4011923_1920.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/chicago-5347435_1920.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                            </div>
+                        </td>
+
+
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/venice-4704342_1920.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/Wroc%C5%82aw.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/new-york-5155189_1920.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="column">
+                                <img class="gone" src="../img/gallery/Katedra%20w%20Mediolanie.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 9</div>
+                        <img src="../img/gallery/frankfurt-4945405_1920.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 9</div>
+                        <img src="../img/gallery/Bazylika%20Sacr%C3%A9-C%C5%93ur%20w%20Pary%C5%BCu%20.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 9</div>
+                        <img src="../img/gallery/Bazylika%20%C5%9Bw%20Piotra.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 9</div>
+                        <img src="../img/gallery/budapest-4011923_1920.jpg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 9</div>
+                        <img src="../img/gallery/chicago-5347435_1920.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 9</div>
+                        <img src="../img/gallery/venice-4704342_1920.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 9</div>
+                        <img src="../img/gallery/Wroc%C5%82aw.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">8 / 9</div>
+                        <img src="../img/gallery/new-york-5155189_1920.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">9 / 9</div>
+                        <img src="../img/gallery/Katedra%20w%20Mediolanie.jpg">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <script>
+                // Skrypt z interneta
+                function openModal() {
+                    document.getElementById("myModal").style.display = "block";
+                }
+
+
+                function closeModal() {
+                    document.getElementById("myModal").style.display = "none";
+                }
+
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    var captionText = document.getElementById("caption");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = slides.length
+                    }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    captionText.innerHTML = dots[slideIndex - 1].alt;
+                }
+
+            </script>
+
+
+            <!--  
+               
+                Okrojona Wersja
+                  
+                    <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                    <img src="../img/gallery/frankfurt-4945405_1920.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Frankfurt</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="../img/gallery/Bazylika%20Sacr%C3%A9-C%C5%93ur%20w%20Pary%C5%BCu%20.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Bazylika Sacré-Cœur w Paryżu </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_lights.jpg">
+                    <img src="../img/gallery/Bazylika%20%C5%9Bw%20Piotra.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Bazylika św. Piotra</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/budapest-4011923_1920.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Budapeszt</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/chicago-5347435_1920.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Chicago</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/Katedra%20w%20Mediolanie.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Katedra w Mediolanie</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/london-5297395_1920.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Londyn</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/Most%20Karola%20w%20Pradze.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Most Karola w Pradze</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/new-york-5155189_1920.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Nowy York</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/night-4694750_1920.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Shanghai</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/Tower%20Bridge%20w%20Londynie.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Tower Bridge w Londynie</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/venice-4704342_1920.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Wenecja</div>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/Wie%C5%BCa%20Eiffla%20w%20Pary%C5%BCu.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Wieża Eiffla w Paryżu</div>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="../img/gallery/Wroc%C5%82aw.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Wrocław</div>
+            </div>
+            
+-->
+        </article>
+
+
+        <footer>
+            © Wojciech Pieczonka 2021. Wszelkie prawa zastrzeżone.
+        </footer>
+
+
+
+
+
+
+    </section>
+
+    <script type="text/javascript">
+        const section = document.getElementsByTagName('section')[0];
+
+        section.addEventListener('mousemove', (e) => {
+            const moveX = (e.pageX * -1 / 15);
+            const moveY = (e.pageY * -1 / 15);
+
+            section.style.backgroundPosition = moveX + 'px ' + moveY + 'px';
+        });
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

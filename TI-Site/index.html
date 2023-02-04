@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <meta name="author" content="Wojciech Pieczonka">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="img/icons/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <section>
+        <nav>
+
+
+            <div class="menu-icons">
+                <div class="menu"><a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a></div>
+                <div class="menu"><a href="subs/galeria.html"><i class="fa fa-fw fa-search"></i>Galeria</a></div>
+                <div class="menu"><a href="subs/kontakt.html"><i class="fa fa-fw fa-envelope"></i> Kontakt</a></div>
+                <div class="menu"><a href="subs/login.html"><i class="fa fa-fw fa-user"></i> Login</a></div>
+
+            </div>
+        </nav>
+
+        <img src="img/logogif.gif" / id="animlogo">
+
+
+
+        <footer>
+            © Wojciech Pieczonka 2021. Wszelkie prawa zastrzeżone.
+        </footer>
+
+
+
+
+
+    </section>
+
+    <script type="text/javascript">
+        const section = document.getElementsByTagName('section')[0];
+
+        section.addEventListener('mousemove', (e) => {
+            const moveX = (e.pageX * -1 / 15);
+            const moveY = (e.pageY * -1 / 15);
+
+            section.style.backgroundPosition = moveX + 'px ' + moveY + 'px';
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

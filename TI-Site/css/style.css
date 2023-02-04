@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+
+
+html {
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: url("../img/background4.jpg") no-repeat;
+    background-size: calc(100% + 150px);
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+
+nav {
+    background-color: #555;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline-block;
+}
+
+.menu {
+
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+
+}
+
+.menu-icons {
+    float: left;
+}
+
+nav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #000;
+}
+
+
+@media screen and (max-width: 500px) {
+    nav a {
+        float: none;
+        display: block;
+    }
+}
+
+.socialm {
+    height: 100%;
+    display: inline-block;
+    margin: 0 40px 0 10px;
+    cursor: pointer;
+    float: right
+}
+
+.socialm img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+header {
+
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+article {
+    background-color: rgb(1, 1, 1, 0.6);
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 35px;
+    left: 0;
+
+}
+
+
+
+footer {
+    background-color: #555;
+    width: 100%;
+    text-align: center;
+    color: white;
+    clear: both;
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+}
+
+#domtd {
+    height: 50%;
+    width: 60%;
+}
+
+#dom {
+    height: auto;
+    width: 95%;
+    float: right;
+    text-align: right;
+}
+
+#animlogo {
+    height: 50vh;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.socialm {
+    height: auto;
+    width: auto;
+    float:right;
+    display: inline;
+   
+    
+
+}
+
+#kontakt {
+    height: 40%;
+    width: 50%;
+}
+#socjal{
+    width: 50%;
+    height: 10%;
+    ;
+}
+
+
+
+.socialm img {
+    width: 30%;
+    margin: 5px;
+    display: inline-block;
+}
